@@ -1,0 +1,16 @@
+
+
+openvino>=2024.0.0
+matplotlib>=3.4
+gradio>=4.15
+transformers>=4.39.1
+tqdm
+torch
+torchvision
+torchaudio
+
+
+
+
+
+

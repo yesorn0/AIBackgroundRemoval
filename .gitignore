@@ -1,5 +1,14 @@
 
 venv
+model
+__pycache__
+data
+notebook_utils.py
+utilities.py
+.chche
+*.jpg
+*.png
+
 
 
 
