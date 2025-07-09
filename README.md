@@ -1,1 +1,1 @@
-# 08_MiniProject
+# 07/10 Intel MiniProject
