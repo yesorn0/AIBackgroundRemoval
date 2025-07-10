@@ -13,11 +13,6 @@ for file_for_downloading in download_files:
     if not Path(file_for_downloading).exists():
         hf_hub_download(repo_id=repo_id, filename=file_for_downloading, local_dir=".")
 
-if not Path("notebook_utils.py").exists():
-    r = requests.get(
-        url="https://raw.githubusercontent.com/openvinotoolkit/openvino_notebooks/latest/utils/notebook_utils.py",
-    )
-    open("notebook_utils.py", "w").write(r.text)
 
 from transformers import AutoModelForImageSegmentation
 
@@ -104,7 +99,6 @@ if not ov_model_path.exists():
     ov_model = ov.convert_model(net, example_input=image, input=[1, 3, *model_input_size])
     ov.save_model(ov_model, ov_model_path)
 
-from notebook_utils import device_widget
 
 device = "CPU"
 core = ov.Core()
