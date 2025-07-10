@@ -11,6 +11,6 @@ utilities.py
 *.bin
 *.xml
 
-
+!assets/*
 
 
