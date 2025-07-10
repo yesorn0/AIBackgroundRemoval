@@ -13,11 +13,11 @@ def make_demo(fn: Callable):
 
         submit.click(fn=fn, inputs=[input_image], outputs=[background_image])
 
-        gr.Examples(
-            examples=["./example_input.jpg"],
-            inputs=[input_image],
-            outputs=[background_image],
-            fn=fn,
-            cache_examples=False,
-        )
+        # gr.Examples(
+        #     examples=["./example_input.jpg"],
+        #     inputs=[input_image],
+        #     outputs=[background_image],
+        #     fn=fn,
+        #     cache_examples=False,
+        # )
     return demo

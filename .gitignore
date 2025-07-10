@@ -5,10 +5,11 @@ __pycache__
 data
 notebook_utils.py
 utilities.py
-.chche
+.cache
 *.jpg
 *.png
-
+*.bin
+*.xml
 
 
 
