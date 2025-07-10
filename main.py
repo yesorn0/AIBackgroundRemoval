@@ -14,9 +14,7 @@ for file_for_downloading in download_files:
     if not Path(file_for_downloading).exists():
         hf_hub_download(repo_id=repo_id, filename=file_for_downloading, local_dir=".")
 
-
-
-
+        
 from transformers import AutoModelForImageSegmentation
 
 net = AutoModelForImageSegmentation.from_pretrained("briaai/RMBG-1.4", trust_remote_code=True)
