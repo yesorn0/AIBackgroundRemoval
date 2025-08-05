@@ -64,8 +64,8 @@ AI 배경 제거 기능이 작동하는 모습을 직접 확인해 보세요!
 
 궁금한 점이 있거나 연락하고 싶으신가요? 
 
-[안진홍] - [github.com/yesorn0]
-[박명우] - [github.com/Mike-snake]
+[안진홍] - [ajh9703@gmail.com]
+[박명우] - [michaelmw@naver.com]
 
 
 
